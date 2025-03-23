@@ -20,14 +20,14 @@ A FastAPI-based semantic search engine for customer support issues using Weaviat
 1. Create a virtual environment:
 
 ```bash
-python -m venv env
+python3 -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
 ```
 
 2. Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 ## Running the Application
