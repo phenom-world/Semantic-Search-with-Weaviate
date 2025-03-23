@@ -1,4 +1,4 @@
-# Semantic Search API
+# Semantic Search with FastAPI and AI
 
 A FastAPI-based semantic search engine for customer support issues using Weaviate and Sentence Transformers. This API provides semantic search capabilities for customer support tickets with category filtering.
 
