@@ -1,0 +1,5 @@
+weaviate-client=4.11.2
+sentence-transformers=2.0.0
+numpy=2.2.4
+pandas=2.2.3
+fastapi[standard]

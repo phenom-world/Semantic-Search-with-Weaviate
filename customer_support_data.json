@@ -1,0 +1,146 @@
+[
+    {
+        "ticket_id": "TKT-1000",
+        "category": "Billing Issue",
+        "customer_issue": "I was charged twice for my subscription.",
+        "resolution_response": "We apologize for the inconvenience. We have refunded the duplicate charge."
+    },
+    {
+        "ticket_id": "TKT-1001",
+        "category": "Billing Issue",
+        "customer_issue": "Why is my bill higher than expected?",
+        "resolution_response": "Your bill may include additional fees or a price increase. Please check the breakdown in your account."
+    },
+    {
+        "ticket_id": "TKT-1002",
+        "category": "Billing Issue",
+        "customer_issue": "I want to update my payment method.",
+        "resolution_response": "You can update your payment details in the billing section of your account settings."
+    },
+    {
+        "ticket_id": "TKT-1003",
+        "category": "Technical Support",
+        "customer_issue": "My app keeps crashing on startup.",
+        "resolution_response": "Try clearing the app cache or reinstalling the app. Let us know if the issue persists."
+    },
+    {
+        "ticket_id": "TKT-1004",
+        "category": "Technical Support",
+        "customer_issue": "The website is not loading properly.",
+        "resolution_response": "Please try clearing your browser cache or using a different browser."
+    },
+    {
+        "ticket_id": "TKT-1005",
+        "category": "Technical Support",
+        "customer_issue": "My camera is not working on video calls.",
+        "resolution_response": "Ensure that the app has camera permissions enabled in your device settings."
+    },
+    {
+        "ticket_id": "TKT-1006",
+        "category": "Account Access",
+        "customer_issue": "I forgot my password and can't reset it.",
+        "resolution_response": "You can reset your password using the 'Forgot Password' link. If you need further assistance, contact support."
+    },
+    {
+        "ticket_id": "TKT-1007",
+        "category": "Account Access",
+        "customer_issue": "My account was locked after multiple login attempts.",
+        "resolution_response": "For security reasons, your account is temporarily locked. Please try again in 30 minutes or reset your password."
+    },
+    {
+        "ticket_id": "TKT-1008",
+        "category": "Account Access",
+        "customer_issue": "Can I change my email address?",
+        "resolution_response": "Yes, you can update your email in the account settings. A verification email will be sent."
+    },
+    {
+        "ticket_id": "TKT-1009",
+        "category": "Product Inquiry",
+        "customer_issue": "Does this product come with a warranty?",
+        "resolution_response": "Yes, this product includes a 1-year manufacturer's warranty."
+    },
+    {
+        "ticket_id": "TKT-1010",
+        "category": "Product Inquiry",
+        "customer_issue": "What are the dimensions of this item?",
+        "resolution_response": "The product dimensions are listed in the specifications section on the product page."
+    },
+    {
+        "ticket_id": "TKT-1011",
+        "category": "Product Inquiry",
+        "customer_issue": "Is this item available in other colors?",
+        "resolution_response": "Yes, this product is available in multiple colors. Please check the available options on the website."
+    },
+    {
+        "ticket_id": "TKT-1012",
+        "category": "Refund Request",
+        "customer_issue": "I want to request a refund for my order.",
+        "resolution_response": "You can request a refund through your order history. Refunds are processed within 5-7 business days."
+    },
+    {
+        "ticket_id": "TKT-1013",
+        "category": "Refund Request",
+        "customer_issue": "Why was my refund denied?",
+        "resolution_response": "Refunds may be denied if the return policy criteria are not met. Please review our return policy."
+    },
+    {
+        "ticket_id": "TKT-1014",
+        "category": "Refund Request",
+        "customer_issue": "Can I get a refund if I used a promo code?",
+        "resolution_response": "Refunds are issued for the amount paid after applying the promo code."
+    },
+    {
+        "ticket_id": "TKT-1015",
+        "category": "Shipping Delay",
+        "customer_issue": "My order is delayed. When will it arrive?",
+        "resolution_response": "We apologize for the delay. You can check the latest tracking updates in your order history."
+    },
+    {
+        "ticket_id": "TKT-1016",
+        "category": "Shipping Delay",
+        "customer_issue": "Why is my package stuck in transit?",
+        "resolution_response": "Shipping delays may occur due to carrier issues. Please allow additional time for delivery."
+    },
+    {
+        "ticket_id": "TKT-1017",
+        "category": "Shipping Delay",
+        "customer_issue": "Can I expedite my shipping?",
+        "resolution_response": "If your order has not yet shipped, you may upgrade to express shipping in your order settings."
+    },
+    {
+        "ticket_id": "TKT-1018",
+        "category": "Subscription Cancellation",
+        "customer_issue": "How do I cancel my subscription?",
+        "resolution_response": "You can cancel your subscription in your account settings under the 'Subscription' section."
+    },
+    {
+        "ticket_id": "TKT-1019",
+        "category": "Subscription Cancellation",
+        "customer_issue": "Will I be charged if I cancel before the renewal date?",
+        "resolution_response": "No, if you cancel before your next billing cycle, you will not be charged."
+    },
+    {
+        "ticket_id": "TKT-1020",
+        "category": "Subscription Cancellation",
+        "customer_issue": "Can I pause my subscription instead of canceling?",
+        "resolution_response": "Yes, we offer a pause option for up to 3 months."
+    },
+    {
+        "ticket_id": "TKT-1021",
+        "category": "Order Tracking",
+        "customer_issue": "Where is my package?",
+        "resolution_response": "You can track your package using the tracking number provided in your order confirmation."
+    },
+    {
+        "ticket_id": "TKT-1022",
+        "category": "Order Tracking",
+        "customer_issue": "My tracking number is not updating.",
+        "resolution_response": "Tracking updates may take up to 24 hours. If there's no update after that, contact the carrier."
+    },
+    {
+        "ticket_id": "TKT-1023",
+        "category": "Order Tracking",
+        "customer_issue": "Can I change my delivery address after placing the order?",
+        "resolution_response": "Once an order is processed, the delivery address cannot be changed. Please contact support for options."
+    }
+]
