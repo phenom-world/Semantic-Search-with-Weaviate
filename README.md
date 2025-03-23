@@ -32,12 +32,16 @@ pip install -r requirements.txt
 
 ## Running the Application
 
-1. Start Weaviate locally (if not already running)
+1. Start Weaviate using Docker:
+
+```bash
+docker run -p 8080:8080 -p 50051:50051 cr.weaviate.io/semitechnologies/weaviate:1.29.1
+```
 
 2. Start the FastAPI server:
 
 ```bash
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+fastapi dev main.py -9000
 ```
 
 ## API Documentation
