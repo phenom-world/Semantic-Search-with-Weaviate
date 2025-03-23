@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer
 import weaviate.classes.config as wc
 
 
-class SupportService:
+class SemanticSearchEngine:
     def __init__(self, host="localhost", port=8080, collection_name="CustomerSupport", model_name="all-MiniLM-L6-v2"):
         self.client = weaviate.connect_to_local( host, port )
         self.collection_name = collection_name

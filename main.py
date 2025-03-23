@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Query
-from support_service import SupportService
+from search_engine import SemanticSearchEngine
 from typing import List, Dict
 from pydantic import BaseModel
 from sentence_transformers import SentenceTransformer
@@ -14,7 +14,7 @@ app = FastAPI(
     version="1.0.0",
 )
 
-support_service = SupportService()
+search_engine = SemanticSearchEngine()
 
 class SearchResponse(BaseModel):
     query: str
@@ -33,20 +33,20 @@ async def root():
 async def load_data():
     with open('customer_support_data.json', 'r') as f:
         data = json.load(f)
-    support_service.load_data_in_batches(data)
+    search_engine.load_data_in_batches(data)
     return {"message": "Data loaded successfully", "totalTickets": len(data)}
 
 
 @app.get("/search")
 def search(query: str = Query(..., description="Enter search query"), top_k: int = 5):
-    results =  support_service.search(query, top_k)
+    results =  search_engine.search(query, top_k)
     return {"query": query, "results": results}
 
 
 
 @app.get("/search/filter")
 def search_with_filter(query: str = Query(..., description="Enter search query"), category: str = Query(..., description="Filter by category"), top_k: int = 5):
-    results = support_service.search_with_filter(query, category, top_k)
+    results = search_engine.search_with_filter(query, category, top_k)
     return {"query": query, "category": category, "results": results}
 
 
